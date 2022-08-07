@@ -19,5 +19,4 @@ abstract class TopicoFormMapper(
             autor = usuarioService.buscarPorId(t.idAutor)
         )
     }
-
 }
